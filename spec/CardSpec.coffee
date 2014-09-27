@@ -13,4 +13,11 @@ describe "deck constructor aka Card", ->
     flipCard = collection.models[0].flip()
     flippedCard = collection.models[0].attributes.revealed
     assert.strictEqual flippedCard, true
-    
+
+describe 'scoring system', ->
+  
+  it 'should add the correct amount', ->
+    deck = new Deck()
+    hand = deck.dealPlayer()
+
+    lol = hand.hand()
