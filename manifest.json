@@ -1,0 +1,12 @@
+{
+  "name": "Family Portrait",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Keeps you close to your loved ones.",
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

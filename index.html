@@ -4,19 +4,25 @@
     <link href="styles/app.css" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body>
+
+    <div class='player-hand-container'></div>
+    <div class='dealer-hand-container'></div>
+
+  <!-- libraries -->
     <script src="lib/jquery.js"></script>
     <script src="lib/underscore.js"></script>
     <script src="lib/backbone.js"></script>
-
-    <script src="compiled/client/models/Card.js"></script>
-    <script src="compiled/client/collections/Hand.js"></script>
-    <script src="compiled/client/collections/Deck.js"></script>
-    <script src="compiled/client/models/App.js"></script>
-
+    <!-- compiled Coffescript files -->
+      <!-- models/collections -->
+      <script src="compiled/client/models/Card.js"></script>
+      <script src="compiled/client/collections/Hand.js"></script>
+      <script src="compiled/client/collections/Deck.js"></script>
+      <script src="compiled/client/models/App.js"></script>
+      <!-- views -->
     <script src="compiled/client/views/CardView.js"></script>
     <script src="compiled/client/views/HandView.js"></script>
     <script src="compiled/client/views/AppView.js"></script>
-
+    <!-- main.js file -->
     <script src="compiled/client/main.js"></script>
   </body>
 </html>
